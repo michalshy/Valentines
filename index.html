@@ -76,7 +76,7 @@
     const yesButtonRect = yesButton.getBoundingClientRect();
     noButton.style.position = 'absolute';
     noButton.style.left = `${yesButtonRect.right + 60}px`;
-    noButton.style.top = `${yesButtonRect.top + 8}px`;
+    noButton.style.top = `${yesButtonRect.top - 8}px`;
 
     yesButton.addEventListener("click", function() {
       const yesEffect = document.getElementById("yes-effect");
